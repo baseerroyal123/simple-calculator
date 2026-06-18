@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Simple calculator</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="Number" id="num1" placeholder="First number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Operator" id="operator" placeholder="operator">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="Number" id="num2" placeholder="Second number">
+                </td>
+            </tr>
+        </tbody>    
+    </table>
+    <br><br>
+    <button onclick="equals()">=</button>
+    <button onclick="add()">+</button>
+    <button onclick="subtract()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <button onclick="modulus()">%</button>
+    <h2 id="result">Result: </h2>
+    <script src="script.js"></script>
+</body>
+</html>
